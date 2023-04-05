@@ -12,4 +12,4 @@ make
 ```
 
 # 실행 영상
- {% include 파일명.html id="https://www.youtube.com/embed/a2-RBqWP2cI" %}  
+ {% include video.html id="https://www.youtube.com/embed/a2-RBqWP2cI" %}  
