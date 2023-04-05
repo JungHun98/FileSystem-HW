@@ -12,4 +12,5 @@ make
 ```
 
 # 실행 영상
- {% include video.html id="https://www.youtube.com/embed/a2-RBqWP2cI" %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
