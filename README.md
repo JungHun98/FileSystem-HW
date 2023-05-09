@@ -1,4 +1,6 @@
-# 파일시스템의 Open, Read, Write, Make, Remove 기능 구현
+# 파일시스템 구현하기
+![image](https://user-images.githubusercontent.com/97653343/236963392-13d2323b-c443-4f7b-a161-3ed671beccbb.png)
+
 
 # 작업 기간
 - 1차 과제: 2022년 5월 11일 ~ 5월 26일
@@ -36,19 +38,38 @@ typedef struct _Inode {
 
 테스트케이스 실행은 Linux환경에서 진행해주셔야 합니다.
 
+## 설치
 ```
-git clone https://github.com/JungHun98/FileSystem-HW
-
-// 실행파일 hw2 생성
-make 
-
-// testcase 실행
-./hw2 createfs 1
-./hw2 openfs 2
-./hw2 openfs 3
-./hw2 openfs 4
+$ git clone https://github.com/JungHun98/FileSystem-HW
 ```
 
+## 실행파일 hw2 생성
+```
+$ make 
+```
+
+## testcase 실행
+:star: 테스트케이스를 실행할 때 `./hw2 createfs 1`를 먼저 입력하여 파일 시스템을 초기화 해주셔야 다음 테스트케이스를 확인할 수 있습니다.
+```
+$ ./hw2 createfs 1
+$ ./hw2 openfs 2
+$ ./hw2 openfs 3
+$ ./hw2 openfs 4
+```
+
+# 파일 구조
+```
+FileSystem-HW
+├─ disk.c
+├─ disk.h
+├─ hw1.c : 1차과제 구현 파일
+├─ hw1.h 
+├─ hw2.c : 2차과제 구현 파일
+├─ hw2.h
+├─ Makefile : make파일
+├─ README.md
+└─ testcase.c : testcase 파일
+```
 # 실행 영상
 
 ![제목 없는 동영상 - Clipchamp로 제작](https://user-images.githubusercontent.com/97653343/230119681-59008741-0c91-4c86-9529-13fa455f92fd.gif)
