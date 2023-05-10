@@ -73,3 +73,6 @@ FileSystem-HW
 # 실행 영상
 
 ![제목 없는 동영상 - Clipchamp로 제작](https://user-images.githubusercontent.com/97653343/230119681-59008741-0c91-4c86-9529-13fa455f92fd.gif)
+
+
+https://velog.io/@j7papa/%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%ED%98%84%EA%B3%BC%EC%A0%9C-%ED%9A%8C%EA%B3%A0
