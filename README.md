@@ -1,6 +1,7 @@
 # 파일시스템 구현하기
-![image](https://user-images.githubusercontent.com/97653343/236963392-13d2323b-c443-4f7b-a161-3ed671beccbb.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97653343/236963392-13d2323b-c443-4f7b-a161-3ed671beccbb.png">
+</p>
 
 # 작업 기간
 - 1차 과제: 2022년 5월 11일 ~ 5월 26일
